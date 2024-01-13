@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+
+.home_screen{
+    position: absolute;
+    left: 40%;
+    top: 6%;
+    height: 90%;
+    width: 320px;
+    border-radius: 30px;
+    background-color: #192A32 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross_img{
+    height: 21px;
+    width: 21px;
+    margin: 3px;
+}
+.circle_img{
+    height: 23px;
+    width: 23px;
+    margin: 3px;
+}
+.pick_player{
+    margin: 10px;
+    height: 23%;
+    width: 80%;
+    background-color: #1F3540;
+    color: white;
+    border-radius: 6px;
+    font-family:'DM Sans' ;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.choice_btn{
+    height: 40px;
+    width: 92%;
+    background-color: #192A32 ;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#choose_x, #choose_o{
+    height: 70%;
+    width: 46%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 15px;
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 25px;
+}
+#choose_o{
+    background-color: #D9D9D9;
+    color: #192A32;
+}
+.vs_cpu_btn, .vs_human_btn,.invite{
+    height: 35px;
+    width: 80%;
+    margin: 10px;
+    background-color: #F2B237;
+    font-family:'DM Sans' ;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.vs_cpu_btn:hover{
+    background-color: #bde61a;
+}
+.vs_human_btn{
+    background-color: #32C4C3;
+}
+.invite{
+    width: 58%;
+    height: 28px;
+    font-size: 14px;
+    margin: 30px;
+}
+.invite:hover{
+    background-color: #D9D9D9;
+}
+#invite_msg{
+    height: 30px;
+    width: 15%;
+    background-color: #192A32;
+    color: #F2B237;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    font-family: 'DM Sans';
+    font-size: 14px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

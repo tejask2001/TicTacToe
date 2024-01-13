@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+
+
+.score{
+    height: 3em;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 17px;
+    top: 72%;
+}
+
+.your_score_div,.tie_score_div,.cpu_score_div{
+    height: 2.70em;
+    width: 4.5em;
+    background-color: aqua;
+    font-family: 'M PLUS Rounded 1c';
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+.your_score_div{
+    background-color: #31C4BE;
+}
+.tie_score_div{
+    background-color: #A8BEC9;
+}
+.cpu_score_div{
+    background-color: #F2B237;
+}
+.you_text,.tie_text,.cpu_text{
+    font-size: 10px;
+}

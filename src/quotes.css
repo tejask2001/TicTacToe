@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Roboto:wght@300&display=swap');
+
+.quotes_container{
+    height: 210px;
+    width: 230px;
+    background-color: #192A32;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quote_text{
+    color: #31C4BE;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+}
+.quotes{
+    color: #F2B237;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow:hidden;
+    align-self: center;
+}
+.fact_circle{
+    background-color: #31C4BE;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote_img{
+    height: 10px;
+    width: 10px;
+}
