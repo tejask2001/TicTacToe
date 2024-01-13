@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './quotes.css';
-import '../templates/Group3.png'
+import '/Group3.png'
 
 export default function Quotes() {
   const [fact, setFact] = useState('');
@@ -33,7 +33,7 @@ return () => clearInterval(intervalId);
             {fact}
         </div>
         <div className='fact_circle'>
-            <img className='quote_img' src="../templates/Group3.png"/>
+            <img className='quote_img' src="/Group3.png"/>
         </div>            
       </div>
     </>
