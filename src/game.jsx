@@ -12,16 +12,16 @@ export default function Game(props){
     let [pcScore, setPcScore] = useState(0);
 
     if(props.player=='x'){
-        player='<img className="cross_img" src="../templates/cross.png">'
-        cpu='../templates/circle.png'
-        winPlayer='../templates/cross.png'
-        winCpu='../templates/circle.png'
+        player='<img className="cross_img" src="/cross.png">'
+        cpu='/circle.png'
+        winPlayer='/cross.png'
+        winCpu='/circle.png'
     }
     else{
-        player='<img className="cross_img" src="../templates/circle.png">'
-        cpu='../templates/cross.png'
-        winPlayer='../templates/circle.png'
-        winCpu='../templates/cross.png'
+        player='<img className="cross_img" src="/circle.png">'
+        cpu='/cross.png'
+        winPlayer='/circle.png'
+        winCpu='/cross.png'
     }
 
     let myArray = [0,1,2,3,4,5,6,7,8];
@@ -169,15 +169,15 @@ export default function Game(props){
                         
             <div className='screen' id="game_screen">
                 <div className='img1'>
-                    <img className="x_img" src="../templates/x.png"/>
-                    <img className="o_img" src="../templates/o.png"/>
+                    <img className="x_img" src="/x.png"/>
+                    <img className="o_img" src="/o.png"/>
                 </div>
                 <div id='turn'>
                     <span id='turn_img'>{props.player}</span>
                     <span>TURN</span>
                 </div>
                 <div className='refresh' id='ref' onClick={refreshBtn}>
-                <img className="refresh_img" src="../templates/refresh.png"/>
+                <img className="refresh_img" src="/refresh.png"/>
                 </div>
                 <div className='play_area'>
                     <div className='row1'>

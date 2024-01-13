@@ -45,7 +45,7 @@ export default function HomeScreen(){
             <div className="home_screen">
                 <div className='img'>
                     <img className="cross_img" src="/x.png"/>
-                    <img className="circle_img" src="../templates/o.png"/>
+                    <img className="circle_img" src="/o.png"/>
                 </div>
                 <div className='pick_player'>
                     <div className='pick_player_img'>PICK PLAYER</div>
